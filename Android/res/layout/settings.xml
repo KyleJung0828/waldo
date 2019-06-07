@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Routing" >
+
+        <ListPreference
+            android:entries="@array/stopDistance"
+            android:entryValues="@array/stopDistanceValues"
+            android:key="stopDistance"
+            android:defaultValue="500"
+            android:summary="Set the maximum acceptable distance to a stop"
+            android:title="Stop Distance" >
+        </ListPreference>
+
+        <ListPreference
+            android:entries="@array/routingOptions"
+            android:entryValues="@array/routingOptionsValues"
+            android:key="routingOptions"
+            android:defaultValue="closest_stop_me"
+            android:summary="Set how a route to a destination should be selected"
+            android:title="Routing Options" />
+        
+        <ListPreference
+            android:entries="@array/numberOfWaldos"
+            android:entryValues="@array/numberOfWaldosValues"
+            android:key="numberOfWaldos"
+            android:defaultValue="1"
+            android:summary="Set the number of Waldos to retrieve"
+            android:title="Number of Waldos" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

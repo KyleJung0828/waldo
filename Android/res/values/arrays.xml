@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="routingOptions">
+        <item name="0">Closest Stop to Me</item>
+        <item name="1">Closest Stop to Destination</item>
+    </string-array>
+    
+    <string-array name="routingOptionsValues">
+        <item name="0">closest_stop_me</item>
+        <item name="1">closest_stop_dest</item>
+    </string-array>
+    
+    <string-array name="stopDistance">
+        <item name="100">100 m</item>
+        <item name="200">200 m</item>
+        <item name="300">300 m</item>
+        <item name="500">500 m</item>
+        <item name="750">750 m</item>
+        <item name="1000">1000 m</item>
+    </string-array>
+    
+    <string-array name="stopDistanceValues">
+        <item name="100">100</item>
+        <item name="200">200</item>
+        <item name="300">300</item>
+        <item name="500">500</item>
+        <item name="750">750</item>
+        <item name="1000">1000</item>
+    </string-array>
+    
+    <string-array name="numberOfWaldos">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="5">5</item>
+        <item name="10">10</item>
+    </string-array>
+    
+    <string-array name="numberOfWaldosValues">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="5">5</item>
+        <item name="10">10</item>
+    </string-array>
+</resources>
